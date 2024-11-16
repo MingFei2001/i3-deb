@@ -1,4 +1,7 @@
 # i3-deb
+
+<!-- TODO: Add screenshot and graphics -->
+
 ```txt
     _________       ____       __    _
    /  _/__  /      / __ \___  / /_  (_)___ _____

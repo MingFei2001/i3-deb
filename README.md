@@ -1,4 +1,12 @@
 # i3-deb
+
+```txt
+    _________       ____       __    _           
+   /  _/__  /      / __ \___  / /_  (_)___ _____ 
+   / /  /_ <______/ / / / _ \/ __ \/ / __ `/ __ \
+ _/ / ___/ /_____/ /_/ /  __/ /_/ / / /_/ / / / /
+/___//____/     /_____/\___/_.___/_/\__,_/_/ /_/ 
+```
 > A minimal, optimized setup delivering a seamless tiling window manager experience for unparalleled programming productivity.
 
 Welcome to i3-deb, a project that redefines your desktop environment for peak productivity. This guide helps you install and configure a minimalistic setup with i3wm on Debian, using XFCE4 as the base. With a focus on reducing distractions and maximizing efficiency, this setup is designed for those who want to spend more time doing and less time tweaking.

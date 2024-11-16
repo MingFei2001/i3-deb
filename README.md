@@ -3,6 +3,8 @@
 
 Welcome to i3-deb, a project that redefines your desktop environment for peak productivity. This guide helps you install and configure a minimalistic setup with i3wm on Debian, using XFCE4 as the base. With a focus on reducing distractions and maximizing efficiency, this setup is designed for those who want to spend more time doing and less time tweaking.
 
+---
+
 ## 📖 Philosophy: Less is More
 
 **The Minimalist Approach**

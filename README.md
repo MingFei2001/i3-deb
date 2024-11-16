@@ -1,11 +1,10 @@
 # i3-deb
-
 ```txt
-    _________       ____       __    _           
-   /  _/__  /      / __ \___  / /_  (_)___ _____ 
+    _________       ____       __    _
+   /  _/__  /      / __ \___  / /_  (_)___ _____
    / /  /_ <______/ / / / _ \/ __ \/ / __ `/ __ \
  _/ / ___/ /_____/ /_/ /  __/ /_/ / / /_/ / / / /
-/___//____/     /_____/\___/_.___/_/\__,_/_/ /_/ 
+/___//____/     /_____/\___/_.___/_/\__,_/_/ /_/
 ```
 
 > A minimal, optimized setup delivering a seamless tiling window manager experience for unparalleled programming productivity.
@@ -79,16 +78,62 @@ By leveraging XFCE4’s pre-configured settings, you avoid unnecessary headaches
 
 ---
 
-## 🚀 Installation Guide (Coming Soon)
+## 🚀 Installation Guide
 
-Stay tuned for detailed steps to:
+**Before you start**
 
-- Install Debian with XFCE4.
-- Set up i3wm and integrate it with XFCE4.
-- Configure the components of this stack for seamless operation.
+Before you begin, make sure you have Debian with XFCE installed on your system. If you haven't done that yet, follow these steps:
+
+1. Install Debian with xfce4 desktop
+2. Backup your configurations
+
+It’s always a good idea to back up your configurations before starting any new installation. This ensures you can easily recover if anything goes wrong.
+
+**Install the i3 Window Manager and Components**
+
+Once you have Debian with XFCE installed, follow these steps to install i3wm and the essential components using the i3-deb installation script.
+
+1. Clone this repository to your local machine:
+```bash
+git clone https://github.com/MingFei2001/i3-deb.git
+cd i3-deb
+```
+
+2. Make the script executable
+```bash
+chmod +x install.sh
+```
+
+3. Run the installation script 
+
+To install i3wm and the selected components, execute the following command:
+
+```bash
+./install.sh
+# or
+bash install.sh
+```
+
+The script will guide you through the installation process and provide feedback in the terminal. It will:
+
+- Update your system.
+- Install i3wm, dmenu, kitty terminal, neovim, tmux, btop, htop, and other essential tools for a productive setup.
+- Copy the bash_aliases file to your home directory for easy alias management.
+- Log all actions for debugging and reference.
+
+4. Post-Installation
+
+Once the installation is complete, the script will prompt you to log out or reboot your system for the changes to take effect. After rebooting, select i3 in the login page and enjoy your new experience!!
+
+**Uninstallation**
+If you decide to uninstall the components at any point, you can run the script with the -u option:
+```bash
+./install.sh -u
+```
+This will remove all installed components and clean up residual files.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License, giving you the freedom to use, modify, and distribute it as you see fit.
+This project is licensed under the [MIT License](./LICENSE), giving you the freedom to use, modify, and distribute it as you see fit.

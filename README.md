@@ -65,6 +65,25 @@ This setup is tailored for programming and productivity:
 
 ---
 
+## 💻 Why Neovim
+
+
+Neovim is a fast, keyboard-centric text editor designed for efficiency. Building on Vim’s powerful modal editing, it lets you navigate and edit code without leaving the keyboard. Neovim takes this a step further with modern improvements, making it even more extensible and efficient for developers.
+
+**Key Feature**
+
++ Vim Keybindings: Stay productive with Vim's intuitive commands for fast text manipulation and navigation.
++ Extensive Plugin Ecosystem: Easily extend Neovim’s functionality with plugins for autocompletion, Git integration, file explorers, and more.
++ Lightweight and Fast: Neovim is designed to be efficient, even with advanced features, ensuring a smooth, distraction-free experience.
+
+**And the best part about Neovim is**
+
+YOU GET TO TELL PEOPLE
+
+😎 `*I USE NEOVIM BTW*` 😎
+
+---
+
 ## 💡 Why XFCE4 as the Base?
 
 **Out-of-the-Box Utilities**
@@ -134,6 +153,16 @@ If you decide to uninstall the components at any point, you can run the script w
 ./install.sh -u
 ```
 This will remove all installed components and clean up residual files.
+
+---
+
+## 🤔 What's the next step?
+
+**Check out Bundles**
+
+Another script i made to automate setting up some useful programs (CLI and GUI). Designed to be as quick and hassle-free as possible to users and repeatable, allowing you to quickly test a new system while still have access to your most useful tools.
+
+*Link: [MingFei2001/bundles.git](https://github.com/MingFei2001/bundles)*
 
 ---
 

@@ -1,11 +1,27 @@
 #!/usr/bin/env bash
-######################################
-#     _________       ____       __
-#    /  _/__  /      / __ \___  / /_
-#    / /  /_ <______/ / / / _ \/ __ \
-#  _/ / ___/ /_____/ /_/ /  __/ /_/ /
-# /___//____/     /_____/\___/_.___/
-######################################
+
+# =================================================================================
+#     _________ ____       __
+#    /  _/__  // __ \___  / /_
+#    / /  /_ </ / / / _ \/ __ \
+#  _/ / ___/ / /_/ /  __/ /_/ /
+# /___//____/_____/\___/_.___/
+# =================================================================================
+# i3-deb: Minimal i3 Window Manager Installer
+# =================================================================================
+# This script automates the installation and uninstallation of 
+# the i3 Window Manager and its essential components on Debian-based systems.
+# 
+# Key Features:
+# - Installs a carefully selected stack of tools to optimize programming workflows.
+# - Logs all actions to a log file for transparency and debugging.
+# - Includes uninstallation functionality with clean residual file removal.
+# - Ensures minimal user input with clear instructions and feedback.
+# 
+# Usage:
+# - Run the script to install the i3wm environment on your Debian system.
+# - Use the `-u` option to uninstall the installed components and clean up.
+# =================================================================================
 
 # Variables
 PROGRAMS=(

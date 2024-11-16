@@ -146,6 +146,21 @@ cleanup_system() {
     fi
 }
 
+# Function to copy bash_aliases to the user's home directory
+copy_config() {
+    if [ -f "$PWD/assets/bash_aliases" ]; then
+        echo "Copying bash_aliases to the user's home directory as .bash_aliases..."
+        cp "$PWD/assets/bash_aliases" "$HOME/.bash_aliases"
+        if [ $? -eq 0 ]; then
+            echo "bash_aliases copied successfully to $HOME/.bash_aliases"
+        else
+            echo "Failed to copy bash_aliases. Please check the file permissions and try again."
+        fi
+    else
+        echo "Error: bash_aliases file not found in assets folder."
+    fi
+}
+
 # Main logic
 main() {
     parse_arguments
@@ -162,6 +177,7 @@ main() {
 
         update_system
         install_programs
+        copy_config
 
         echo "Installation completed successfully. Please log out or reboot for changes to take effect."
     fi

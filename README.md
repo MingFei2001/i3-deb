@@ -7,6 +7,7 @@
  _/ / ___/ /_____/ /_/ /  __/ /_/ / / /_/ / / / /
 /___//____/     /_____/\___/_.___/_/\__,_/_/ /_/ 
 ```
+
 > A minimal, optimized setup delivering a seamless tiling window manager experience for unparalleled programming productivity.
 
 Welcome to i3-deb, a project that redefines your desktop environment for peak productivity. This guide helps you install and configure a minimalistic setup with i3wm on Debian, using XFCE4 as the base. With a focus on reducing distractions and maximizing efficiency, this setup is designed for those who want to spend more time doing and less time tweaking.
@@ -44,6 +45,10 @@ Enhance your coding experience with this lightweight yet powerful text editor. B
 **Tmux: The Ultimate Terminal Multiplexer**
 
 Manage multiple terminal sessions in one window. Split panes, navigate seamlessly, and pick up where you left off.
+
+**System Monitors (btop/htop)**
+
+Keep an eye on system performance with these minimal resource monitors, perfect for diagnosing bottlenecks or just checking CPU load.
 
 ---
 

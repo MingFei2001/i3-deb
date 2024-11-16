@@ -1,0 +1,5 @@
+# Ignore log files
+*.log
+
+# Specific log file
+i3-deb-install.log

@@ -7,11 +7,8 @@
 #
 #----------------------------------------------------------
 # This file contains some custom bash aliases
-# along with some personal bash config to avoid
-# mixing with .bashrc file in the home directory
-#
-# p/s: this is a known working version and only
-# change ths when all changes are tested properly
+# some are convienent shortcut while some are safety measure
+# this still doesn't prevent you from removing french /s
 #----------------------------------------------------------
 
 #if [ -f ~/.bash_aliases ]; then
@@ -49,45 +46,21 @@ alias submit='git add . && git commit -a && git push'
 #----------------------------------------------------------
 # alias for apps
 alias v='nvim'
-alias em='emacs -nw'
-alias duf='duf -hide special'
-alias rng='ranger'
-alias cm='cmatrix'
 alias nf='neofetch'
-alias ff='figlet -f slant.flf Debian | lolcat && fastfetch -l none'
-alias scrgm='scrcpy --fullscreen'
-alias gdrive='thunar && rclone mount google-drive: ~/Documents/gdrive/'
-alias zz='zellij --layout compact'
-alias lg='lazygit'
-alias cat='batcat --color=always'
-alias dmenu="dmenu_run -p 'run' -nb '#1F1F28' -nf '#DCD7BA' -sb '#7E9CD8' -sf '#1F1F28' -l 3"
+alias dmenu="dmenu_run -p 'run' -l 3"
 #----------------------------------------------------------
 
 #----------------------------------------------------------
 # alias for system information call
-alias clock='tty-clock -c -B -C 7'
 alias gg='sudo poweroff'
 alias cl='clear'
 #----------------------------------------------------------
 
 #----------------------------------------------------------
-# run neofetch on startup
-# neofetch
-figlet -f slant.flf Debian | lolcat && fastfetch -l none
-
-# initiate starship prompt when launching terminal
-eval "$(starship init bash)"
-
-#set input mode to be vim modal keybinding
-set -o vi
-export EDITOR=nvim
-#----------------------------------------------------------
-
+# Variable exports
 export GOPATH=$HOME/go
 export PATH=${PATH}:$HOME/go/bin
-
 export TERM=xterm-256color
-
 #----------------------------------------------------------
 # EOF
 #----------------------------------------------------------

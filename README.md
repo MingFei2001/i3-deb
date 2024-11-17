@@ -67,7 +67,6 @@ This setup is tailored for programming and productivity:
 
 ## 💻 Why Neovim
 
-
 Neovim is a fast, keyboard-centric text editor designed for efficiency. Building on Vim’s powerful modal editing, it lets you navigate and edit code without leaving the keyboard. Neovim takes this a step further with modern improvements, making it even more extensible and efficient for developers.
 
 **Key Feature**
@@ -153,6 +152,10 @@ If you decide to uninstall the components at any point, you can run the script w
 ./install.sh -u
 ```
 This will remove all installed components and clean up residual files.
+
+**Notice**
+
+By default, the script installs nano instead of nvim, as the version of Neovim in Debian stable is outdated. If you're using Debian's testing branch with a newer Neovim version, you can switch by removing `nano` and uncommenting `nvim` in the program list in the script.
 
 ---
 

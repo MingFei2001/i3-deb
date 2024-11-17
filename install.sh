@@ -22,6 +22,8 @@
 # - Run the script to install the i3wm environment on your Debian system.
 # - Use the `-u` option to uninstall the installed components and clean up.
 # =================================================================================
+# TODO: add picom config to assets
+# =================================================================================
 
 # Variables
 PROGRAMS=(
@@ -33,6 +35,7 @@ PROGRAMS=(
     "tmux"
     "btop"
     "htop"
+    "picom"
 ) # List of programs to install; easily editable
 LOGFILE="i3-deb-install.log" # Log file to record actions
 IS_UNINSTALL=false # Default mode is installation, set to true if -u is passed
